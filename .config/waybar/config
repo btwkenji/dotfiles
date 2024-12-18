@@ -32,12 +32,13 @@
     },
     "hyprland/language": {
         "format-en": "US",
+        "format-fr": "FR",
         "format-uk": "UA",
         "format-ru": "RU",
     },
     "clock": {
         "timezone": "Europe/Paris",
-        "format": "{:%A, %B, %d/%m/%y %I:%M:%S %p}",
+        "format": "{:%A, %B, %d/%m/%y %H:%M:%S}",
         "interval": 1
     },
     "cpu": {
