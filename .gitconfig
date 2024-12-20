@@ -12,6 +12,6 @@
 [url "git@gitlab.com:"]
     insteadOf = https://gitlab.com/
 [init]
-	defaultBranch = main
+	defaultBranch = master
 [core]
 	editor = nvim
