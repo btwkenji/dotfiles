@@ -31,7 +31,7 @@
         }
     },
     "hyprland/language": {
-        "format-en": "US",
+        "format-en": "EN",
         "format-fr": "FR",
         "format-uk": "UA",
         "format-ru": "RU",
