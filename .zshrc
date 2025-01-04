@@ -116,7 +116,7 @@ alias vi="nvim"
 alias vim="nvim"
 
 alias c="clear"
-alias gtp="$HOME/dev && clear && ls -a"
+alias gtp="$HOME/Dev && clear && ls -a"
 alias gtd="cd $HOME/dotfiles"
 alias gtc="cd $HOME/.config"
 
