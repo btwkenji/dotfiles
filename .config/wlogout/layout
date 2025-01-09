@@ -1,13 +1,13 @@
 {
     "label" : "lock",
-    "action" : "loginctl lock-session",
+    "action" : "hyprlock",
     "text" : "Lock",
     "keybind" : "l"
 }
 {
     "label" : "hibernate",
     "action" : "systemctl hibernate",
-    "text" : "hibernate",
+    "text" : "Hibernate",
     "keybind" : "h"
 }
 {

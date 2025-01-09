@@ -140,13 +140,13 @@ export EDITOR="nvim"
 export GIT_EDITOR="nvim"
 export VISUAL="nvim"
 export TERMINAL="alacritty"
-export BROWSER="firefox"
+export BROWSER="firefox-developer-edition"
 export FILE_EXPLORER="ranger"
 export FILE_MANAGER="ranger"
 export VIDEO_PLAYER="mpv"
 export SCREENCAST_TOOL="obs"
 export PDF_VIEWER="zathura"
-export IMAGE_VIEWER="feh"
+export IMAGE_VIEWER="imv"
 source $ZSH/ zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # pnpm

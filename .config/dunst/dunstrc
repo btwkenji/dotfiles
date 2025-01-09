@@ -136,7 +136,7 @@
 
     ### Text ###
 
-    font = CaskaydiaCove Nerd Font
+    font = JetBrainsMono Nerd Font
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -347,6 +347,9 @@
     # Icon for notifications with critical urgency, uncomment to enable
     #default_icon = /path/to/icon
 
+[backlight]
+    appname = "Backlight"
+    highlight = "#eba0ac"
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
 #

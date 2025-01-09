@@ -1,5 +1,6 @@
 * {
-    font: "CaskaydiaCove Nerd Font 12";
+    font: "JetBrainsMono Nerd Font 12";
+    font-style: bold;
     g-spacing: 10px;
     g-margin: 0;
     b-color: #000000FF;
@@ -19,7 +20,7 @@
 configuration {
     modi: "drun";
     show-icons: false;
-    display-drun: "  ";
+    display-drun: "  ";
 }
 
 listview {
@@ -52,7 +53,7 @@ inputbar {
 }
 
 entry {
-    placeholder: "search apps";
+    placeholder: "";
     text-color: @fg-color;
     placeholder-color: @fgp-color;
 }

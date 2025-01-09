@@ -66,7 +66,7 @@
             "critical": 15
         },
         "format": "{icon} {capacity}% {time} ↓",
-        // "format-full": "FULL",
+        "format-full": "{icon} {capacity}% {time} ↓",
         "format-charging": "{icon} {capacity}% {time} ↑ " ,
         "format-plugged": "{icon} {capacity}% {time}  ",
         "format-icons": [" ", " ", " ", " ", " "],
@@ -78,13 +78,13 @@
     "network": {
         // "interface": "wlan0", // (Optional) To force the use of this interface,
         "format-wifi": " ",
-        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
         "family": "ipv4",
         "tooltip-format-wifi": "-     {ifname} @ {essid}\n- IP: {ipaddr}\n- Strength: {signalStrength}%\n- Freq: {frequency}MHz\n-  {bandwidthUpBits}  {bandwidthDownBits}",
-        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n {bandwidthUpBits}    {bandwidthDownBits}"
+        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n  {bandwidthUpBits}    {bandwidthDownBits}"
     },
     "disk": {
         "interval": 30,
