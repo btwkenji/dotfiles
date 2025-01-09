@@ -14,6 +14,7 @@
         "temperature", 
         "memory", 
         "cpu", 
+        "custom/brightness",
         "pulseaudio", 
         "keyboard-state", 
         "hyprland/language",
@@ -31,14 +32,16 @@
         }
     },
     "hyprland/language": {
-        "format-en": "EN",
-        "format-fr": "FR",
-        "format-uk": "UA",
-        "format-ru": "RU",
+        "format-en": "  EN",
+        "format-fr": "  FR",
+        "format-uk": "  UA",
+        "format-ru": "  RU",
     },
     "clock": {
-        "timezone": "Europe/Paris",
-        "format": "{:%A, %B, %d/%m/%y %H:%M:%S}",
+        "format": "  {:%H:%M:%S   %e %B, %A} ",
+        "format-alt": "  {:%H:%M:%S   %e %B, %A - %d/%m/%y} ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "today-format": "<b>{}</b>",
         "interval": 1
     },
     "cpu": {
@@ -58,13 +61,13 @@
     },
     "battery": {
         "states": {
-            "good": 95,
+            "good": 100,
             "warning": 30,
             "critical": 15
         },
         "format": "{icon} {capacity}% {time} ↓",
-        "format-full": "FULL",
-        "format-charging": "{icon} {capacity}% {time} ↑",
+        // "format-full": "FULL",
+        "format-charging": "{icon} {capacity}% {time} ↑ " ,
         "format-plugged": "{icon} {capacity}% {time}  ",
         "format-icons": [" ", " ", " ", " ", " "],
         "format-time": "{H}:{M}",
@@ -73,13 +76,15 @@
         "bat": "BAT1"
     },
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%)  ",
-        "format-ethernet": "{ipaddr}/{cidr}",
-        "tooltip-format": "{ifname} via {gwaddr}",
-        "format-linked": "{ifname} (No IP)",
-        "format-disconnected": "disconnected",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        // "interface": "wlan0", // (Optional) To force the use of this interface,
+        "format-wifi": " ",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "family": "ipv4",
+        "tooltip-format-wifi": "-     {ifname} @ {essid}\n- IP: {ipaddr}\n- Strength: {signalStrength}%\n- Freq: {frequency}MHz\n-  {bandwidthUpBits}  {bandwidthDownBits}",
+        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n {bandwidthUpBits}    {bandwidthDownBits}"
     },
     "disk": {
         "interval": 30,
